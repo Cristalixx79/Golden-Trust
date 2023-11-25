@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgba($color: #cfcdcd, $alpha: 0.1);
+    padding: 30px 0;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__copyright {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgba($color: #cfcdcd, $alpha: 0.5);
+    }
+}

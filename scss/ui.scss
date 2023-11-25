@@ -1,0 +1,14 @@
+.ibg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    &-rotate{
+        transform: rotate(180deg);
+    }
+
+    @media(max-width: 1024px){
+        background-position: center;
+    }
+    img{display: none;}
+}
